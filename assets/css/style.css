@@ -51,7 +51,7 @@ nav {
 }
 
 #profile-pic {
-    margin: 2.3733333333rem 2.3733333333rem 0;
+    margin: 2.3733333333rem auto 0;
     max-width: 80%;
     border-radius: 50%;
     border: 2px solid black;
