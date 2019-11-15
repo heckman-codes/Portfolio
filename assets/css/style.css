@@ -15,11 +15,6 @@
     border-bottom: 1px black solid;
 }
 
-.brand-logo:hover {
-    overflow: hidden;
-    transform:scale(1.1);
-}
-
 .zoom:hover {
     overflow: hidden;
     transform:scale(1.1);
