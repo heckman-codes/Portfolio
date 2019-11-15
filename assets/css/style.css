@@ -15,6 +15,11 @@
     border-bottom: 1px black solid;
 }
 
+.brand-logo:hover {
+    overflow: hidden;
+    transform:scale(1.1);
+}
+
 .zoom:hover {
     overflow: hidden;
     transform:scale(1.1);
@@ -51,7 +56,7 @@ nav {
 }
 
 #profile-pic {
-    margin: 2.3733333333rem auto 0;
+    margin: 2.3733333333rem 2.3733333333rem 0;
     max-width: 80%;
     border-radius: 50%;
     border: 2px solid black;
