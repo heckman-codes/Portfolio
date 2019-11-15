@@ -50,10 +50,16 @@ nav {
     display: none;
 }
 
-.profile-pic {
-    margin: 2.3733333333rem auto 0 auto;
+#profile-pic {
+    margin: 2.3733333333rem auto 0;
     max-width: 80%;
     border-radius: 50%;
+    border: 2px solid black;
+}
+
+.arrow-swiss {
+    max-height: 111px;
+    max-width:211px;
 }
 
 h2 {
