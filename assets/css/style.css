@@ -1,0 +1,99 @@
+@font-face {
+    font-family: CaslonGraphique;
+    src: url("CaslonGraphique.otf") format("opentype");
+}
+
+.card-title {
+    font-family: Helvetica , sans-serif;
+    font-weight: bold !important;
+    margin-top: 0;
+    /* display: none; */
+}
+
+.card-image {
+    overflow:hidden;
+    border-bottom: 1px black solid;
+}
+
+.zoom:hover {
+    overflow: hidden;
+    transform:scale(1.1);
+}
+
+h3, h5 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    background-color: black;
+    color: black;
+}
+
+.nav-links {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.slider-text {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#splash-text {
+    font-size: 60px;
+}
+
+.indicators {
+    display: none;
+}
+
+.profile-pic {
+    margin: 2.3733333333rem auto 0 auto;
+    max-width: 80%;
+    border-radius: 50%;
+}
+
+h2 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24pt; 
+}
+
+h4 {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20pt; 
+}
+
+.circle {
+    border-radius: 0px;
+}
+
+.collection .collection-item.avatar {
+    min-height: 65px;
+    padding-left: 72px;
+    position: relative;
+}
+
+.brand-logo {
+    position: relative;
+    width:40px;
+}
+
+.vertical-center {
+    margin-top: .7rem;
+}
+
+.page-footer {
+    background-color: black;
+}
+
+.footer-copyright-text {
+    font-family: Helvetica, sans-serif;
+
+}
