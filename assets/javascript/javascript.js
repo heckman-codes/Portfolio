@@ -27,5 +27,5 @@ $(document).ready(function () {
 });
 
 $(".code-deployment").on("click", function () {
-    window.location = $(this).attr("data-url");
+    window.open($(this).attr("data-url"));
 });
