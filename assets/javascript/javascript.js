@@ -25,3 +25,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('.sidenav').sidenav();
 });
+
+$(".code-deployment").on("click", function () {
+    window.location = $(this).attr("data-url");
+});

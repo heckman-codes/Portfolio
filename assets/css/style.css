@@ -57,6 +57,9 @@ nav {
     border: 2px solid black;
 }
 
+.code-deployment {
+    cursor: pointer;
+}
 .arrow-swiss {
     max-height: 111px;
     max-width:211px;
