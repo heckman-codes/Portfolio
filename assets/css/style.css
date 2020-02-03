@@ -10,6 +10,15 @@
     /* display: none; */
 }
 
+.title {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+
 .card-image {
     overflow:hidden;
     border-bottom: 1px black solid;
@@ -105,4 +114,21 @@ h4 {
 .footer-copyright-text {
     font-family: Helvetica, sans-serif;
 
+}
+
+#resume-button {
+    color: white;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 8px;
+    margin: 2.5rem 0 1.168rem 0;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }

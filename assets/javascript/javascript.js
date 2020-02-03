@@ -29,3 +29,21 @@ $(document).ready(function () {
 $(".code-deployment").on("click", function () {
     window.open($(this).attr("data-url"));
 });
+
+// $(".portfolio-group").on("click"), function () {
+//     $("#images-section").empty();
+//     $("#project-title").text(portfolio.title)
+//     for (let i = 0; i < portfolio.image.length; i++) {
+//         var img = $("<img>").addClass("portfolio-image").attr("src", portfolio.image[i])
+//         $("#images-section").append(img);
+//     }
+// }
+
+// const portfolio = [
+//     {
+//         title: "Newsletters",
+//         image: ["assets/images/...", "assets/images/..."],
+//         description: "Description",
+//     },
+
+// ]
