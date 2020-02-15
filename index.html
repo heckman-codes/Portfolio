@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="assets/images/LH-Logo-black.png">
     <title>Liam Heckman</title>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <!-- <script src="https://kit.fontawesome.com/42c57a4b77.js" crossorigin="anonymous"></script> -->
@@ -54,84 +55,91 @@
     </div>
     <div class="container" id="about-me">
         <div class="row">
-            <div class="col xs12 med6">
-                <h3> Designer & Developer</h3>
-            </div>
-            <div class="col xs12 med6">
-                <button id="resume-button" onclick="window.location.href='https://heckman-portfolio.s3-us-west-2.amazonaws.com/Resume_HeckmanLiam_112519.pdf'">Download my Resume</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m4 l4>">
-                <img class="responsive-image center-align" id="profile-pic" src="assets/images/profile-pic.png" />
-                <h2>About-Me</h2>
-                <p>I am a Full Stack Web Developer with a background in Graphic Design and a commitment to always growing my skill set. Successful in creating practical and aesthetic solutions for a variety of unique problems. I am a creative-collaborator that brings problem-solving skills and outside thinking to the table. Through my years of professional experience as a graphic designer, I seek to use my knowledge of typography, color theory, visual hierarchy, strengths in time management and meeting deadlines to create the best user-experience possible.</p>
-                <p></p>
-            </div>
-            <div class="col s12 m8 m8">
-                <h2>Skills</h2>
-                <hr>
+            <div class="col s12 m4 l4">
+                <div class="row hide-on-small-only">
+                    <div class="center-align">
+                        <img class="responsive-image" id="profile-pic" src="assets/images/profile-pic.png" />
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col s12 m12 l6">
-                        <h4>Code</h4>
+                    <h4>Skills</h4>
+                    <hr>
+                    <div class="col s6 m6 l6" id="code-collection">
                         <ul class="collection">
                             <li class="collection-item avatar">
                                 <img src="assets/images/html5_E34F26.svg" alt="HTML5" class="circle">
-                                <span class="title">HTML 5</span>
+                                <span class="title hide-on-med-only">HTML 5</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/css3_ 1572B6.svg" alt="CSS3" class="circle">
-                                <span class="title">CSS 3</span>
+                                <span class="title hide-on-med-only">CSS 3</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/bootstrap_ 563D7C.svg" alt="Bootstrap" class="circle">
-                                <span class="title">Bootstrap</span>
+                                <span class="title hide-on-med-only">Bootstrap</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/javascript_ F7DF1E.svg" alt="Javascript" class="circle">
-                                <span class="title">Javascript</span>
+                                <span class="title hide-on-med-only">Javascript</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/jquery_ 0769AD.svg" alt="jQuery" class="circle">
-                                <span class="title">jQuery</span>
+                                <span class="title hide-on-med-only">jQuery</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/node-dot-js_ 339933.svg" alt="node.js" class="circle">
-                                <span class="title">Node.js</span>
+                                <span class="title hide-on-med-only">Node.js</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="col s12 m12 l6">
-                        <h4>Design</h4>
+                    <div class="col s6 m6 l6" id="design-collection">
                         <ul class="collection">
                             <li class="collection-item avatar">
                                 <img src="assets/images/Photoshop.svg" alt="Adobe Photoshop" class="circle">
-                                <span class="title">Photoshop</span>
+                                <span class="title hide-on-med-only">Photoshop</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/InDesign.svg" alt="Adobe Photoshop" class="circle">
-                                <span class="title">Indesign</span>
+                                <span class="title hide-on-med-only">Indesign</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/After Effects.svg" alt="Adobe Photoshop" class="circle">
-                                <span class="title">After Effects</span>
+                                <span class="title hide-on-med-only">After Effects</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/Illustrator.svg" alt="Adobe Photoshop" class="circle">
-                                <span class="title">Illustrator</span>
+                                <span class="title hide-on-med-only">Illustrator</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/Premiere Pro.svg" alt="Adobe Premiere Pro" class="circle">
-                                <span class="title">Premiere Pro</span>
+                                <span class="title hide-on-med-only">Premiere Pro</span>
                             </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/Experience Design.svg" alt="Experience Design" class="circle">
-                                <span class="title">Experience Design</span>
+                                <span class="title hide-on-med-only">Experience Design</span>
                             </li>
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div class="col s12 m8 m8 bio">
+                <div class="row">
+                    <div class="col s12 m12">
+                        <h3 id="dnd"> Designer & Developer</h3>
+                        <button id="resume-button" onclick="window.location.href='https://heckman-portfolio.s3-us-west-2.amazonaws.com/Resume_HeckmanLiam_112519.pdf'">Download my Resume</button>
+                        <!-- <button id="resume-button" onclick="window.location.href='https://heckman-portfolio.s3-us-west-2.amazonaws.com/Resume_HeckmanLiam_112519.pdf'">Send Me a Message</button> -->
+                    </div>
+                    <div class="col s12 m12">
 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 bio">
+                        <h2 id="about-header">About-Me</h2>
+                        <p id="bio-text">I am a Full Stack Web Developer with a background in Graphic Design and a commitment to always growing my skill set. Successful in creating practical and aesthetic solutions for a variety of unique problems. I am a creative-collaborator that brings problem-solving skills and outside thinking to the table. Through my years of professional experience as a graphic designer, I seek to use my knowledge of typography, color theory, visual hierarchy, strengths in time management and meeting deadlines to create the best user-experience possible.</p>
+                        <p></p>
+                    </div>
+                </div>
             </div>
 
 
@@ -139,11 +147,13 @@
 
         </div>
     </div>
+
+    <!-- Code Section Starts Here -->
     <div class="container" id="my-code">
-        <div class="row">
-            <h3> Code </h3>
-            <hr>
-            <div class="col s6 m6 l4">
+        <h3> Code </h3>
+        <hr>
+        <div class="row grid">
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image code-deployment" data-url="https://blooming-hollows-67917.herokuapp.com">
                         <img class="responsive-img zoom" src="assets/images/wag-img.png">
@@ -158,7 +168,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s6 m6 l4">
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image code-deployment" data-url="https://heckman-codes.github.io/LotR-jQuery-RPG/">
                         <img class="responsive-img zoom" src="assets/images/lotr-jquery-img.png">
@@ -173,7 +183,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col s6 m6 l4">
+            <div class="col s6 m6 l4 grid-item">
+                <div class="card">
+                    <div class="card-image code-deployment" data-url="https://lit-sands-54233.herokuapp.com/">
+                        <img class="responsive-img zoom" src="assets/images/ted-talk-scraper.png">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">TedTalk Scraper</h5>
+                        <p>View the latest TedTalks and leave comments for others</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://lit-sands-54233.herokuapp.com/" target="_blank">View Deployment</a>
+                        <a href="https://github.com/heckman-codes/mongo-scraper" target="_blank">Repository </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image code-deployment" data-url="https://heckman-codes.github.io/Astronomy-Trivia-Game/">
                         <img class="responsive-img zoom" src="assets/images/astronomy-trivia-img.png">
@@ -188,7 +213,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s6 m6 l4">
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image code-deployment" data-url="https://immense-sands-93430.herokuapp.com/">
                         <img class="responsive-img zoom" src="assets/images/d&d-toolkit-img.png">
@@ -200,11 +225,10 @@
                     <div class="card-action">
                         <a href="https://immense-sands-93430.herokuapp.com/" target="_blank">View Deployment</a>
                         <a href="https://github.com/heckman-codes/DnD-5e-Spellcasters-Toolkit" target="_blank">Repository </a>
-
                     </div>
                 </div>
             </div>
-            <div class="col s6 m6 l4">
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image code-deployment" data-url="https://heckman-codes.github.io/CineSearch-Prototype/">
                         <img class="responsive-img zoom" src="assets/images/cinesearch-img.png">
@@ -220,7 +244,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s6 m6 l4">
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image code-deployment" data-url="https://heckman-codes.github.io/GifTastic/">
                         <img class="responsive-img zoom" src="assets/images/gif-search-img.png">
@@ -235,11 +259,29 @@
                     </div>
                 </div>
             </div>
+            <div class="col s6 m6 l4 grid-item">
+                <div class="card">
+                    <div class="card-image code-deployment" data-url="https://rocky-basin-41679.herokuapp.com/">
+                        <img class="responsive-img zoom" src="assets/images/burger.png">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Eat Da Burger</h5>
+                        <p>Add your favorite burgers to the list and eat them</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://rocky-basin-41679.herokuapp.com/" target="_blank">View Deployment</a>
+                        <a href="https://github.com/heckman-codes/burger" target="_blank">Repository </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row" id="my-design">
-            <h3> Design </h3>
-            <hr>
-            <div class="col s6 m6 l4">
+
+
+        <!-- Design Section Starts HERE -->
+        <h3> Design </h3>
+        <hr>
+        <div class="row grid" id="my-design">
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image">
                         <img class="materialboxed responsive-img" src="assets/images/horton_gig-poster.png">
@@ -250,7 +292,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col s6 m6 l4">
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image">
                         <img class="materialboxed responsive-img" src="assets/images/chetfaker.png">
@@ -260,9 +302,8 @@
                         <p>A gig poster to advertise Chet Faker playing in Sacramento </p>
                     </div>
                 </div>
-
             </div>
-            <div class="col s6 m6 l4">
+            <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image">
                         <img class="materialboxed responsive-img" src="assets/images/blackkeys_full.png">
@@ -274,6 +315,17 @@
                 </div>
 
             </div>
+            <!-- <div class="col s6 m6 l4">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="materialboxed responsive-img" src="assets/images/wag-img.png">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">The Black Keys</h5>
+                        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">View</a>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </div>
     <footer class="page-footer">
@@ -297,14 +349,21 @@
         <div class="footer-copyright">
             <div class="container footer-copyright-text">
                 © 2020 Copyright Liam Heckman
-                <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
             </div>
         </div>
     </footer>
-
-
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h2 class="project-name">Modal Header</h2>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/javascript/javascript.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 
 </html>
