@@ -68,7 +68,7 @@ $(document).ready(function () {
                         var h = $("<h4>").text(portfolio[i].videoNames[k])
                         var a = $("<a>")
                         var img = $("<img>");
-                        $(img).attr("src", portfolio[i].videoThumbs[k]).addClass("responsive-img").css({
+                        $(img).attr("src", portfolio[i].videoThumbs[k]).addClass("responsive-img vimeo-img").css({
                             'display': 'block'
                         });
 
@@ -119,9 +119,9 @@ const portfolio = [
     {
         title: "Motion Graphics",
         coverImage: "assets/images/mographs.gif",
-        videos: ["https://vimeo.com/390898222", "https://vimeo.com/390899087", "https://vimeo.com/390899992", "https://vimeo.com/163035842"],
-        videoThumbs: ["assets/images/cover-oppy.jpg", "assets/images/cover-litehouse.jpg", "assets/images/cover-naturipe.jpg", "assets/images/cover-autonomous.jpg"],
-        videoNames: ["Naturipe", "Oppy Apples", "Litehouse Dressings", "Autonomous"]
+        videos: ["https://vimeo.com/390898222", "https://vimeo.com/390899992", "https://vimeo.com/390899087", "https://vimeo.com/163035842"],
+        videoThumbs: ["assets/images/cover-naturipe.jpg", "assets/images/cover-litehouse.jpg", "assets/images/cover-oppy.jpg", "assets/images/cover-autonomous.jpg"],
+        videoNames: ["Naturipe", "Litehouse Dressings", "Oppy Apples", "Autonomous"]
     },
     // {
     //     title: "Layouts",

@@ -56,16 +56,40 @@
     <div class="container" id="about-me">
         <div class="row">
             <div class="col s12 m4 l4">
-                <div class="row hide-on-small-only">
+                <!-- <div class="row hide-on-small-only">
                     <div class="center-align">
                         <img class="responsive-image" id="profile-pic" src="assets/images/profile-pic.png" />
                     </div>
-                </div>
+                </div> -->
                 <div class="row">
-                    <h4>Skills</h4>
+                    <h4><strong>Skills</strong></h4>
                     <hr>
                     <div class="col s6 m6 l6" id="code-collection">
                         <ul class="collection">
+                            <li class="collection-item avatar">
+                                <img src="assets/images/react_61DAFB.svg" alt="React" class="circle">
+                                <span class="title hide-on-med-only">React.js</span>
+                            </li>
+                            <li class="collection-item avatar">
+                                <img src="assets/images/node-dot-js_ 339933.svg" alt="node.js" class="circle">
+                                <span class="title hide-on-med-only">Node.js</span>
+                            </li>
+                            <li class="collection-item avatar">
+                                <img src="assets/images/javascript_ F7DF1E.svg" alt="Javascript" class="circle">
+                                <span class="title hide-on-med-only">Javascript</span>
+                            </li>
+                            <li class="collection-item avatar">
+                                <img src="assets/images/mongodb_47A248.svg" alt="MongoDB" class="circle">
+                                <span class="title hide-on-med-only">MongoDB</span>
+                            </li>
+                            <li class="collection-item avatar">
+                                <img src="assets/images/mysql_4479A1.svg" alt="MySQL" class="circle">
+                                <span class="title hide-on-med-only">MySQL</span>
+                            </li>
+                            <li class="collection-item avatar">
+                                <img src="assets/images/jquery_ 0769AD.svg" alt="jQuery" class="circle">
+                                <span class="title hide-on-med-only">jQuery</span>
+                            </li>
                             <li class="collection-item avatar">
                                 <img src="assets/images/html5_E34F26.svg" alt="HTML5" class="circle">
                                 <span class="title hide-on-med-only">HTML 5</span>
@@ -73,22 +97,6 @@
                             <li class="collection-item avatar">
                                 <img src="assets/images/css3_ 1572B6.svg" alt="CSS3" class="circle">
                                 <span class="title hide-on-med-only">CSS 3</span>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="assets/images/bootstrap_ 563D7C.svg" alt="Bootstrap" class="circle">
-                                <span class="title hide-on-med-only">Bootstrap</span>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="assets/images/javascript_ F7DF1E.svg" alt="Javascript" class="circle">
-                                <span class="title hide-on-med-only">Javascript</span>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="assets/images/jquery_ 0769AD.svg" alt="jQuery" class="circle">
-                                <span class="title hide-on-med-only">jQuery</span>
-                            </li>
-                            <li class="collection-item avatar">
-                                <img src="assets/images/node-dot-js_ 339933.svg" alt="node.js" class="circle">
-                                <span class="title hide-on-med-only">Node.js</span>
                             </li>
                         </ul>
                     </div>
@@ -126,8 +134,18 @@
                 <div class="row">
                     <div class="col s12 m12">
                         <h3 id="dnd"> Designer & Developer</h3>
-                        <button id="resume-button" onclick="window.location.href='https://heckman-portfolio.s3-us-west-2.amazonaws.com/Resume_HeckmanLiam_112519.pdf'">Download my Resume</button>
-                        <!-- <button id="resume-button" onclick="window.location.href='https://heckman-portfolio.s3-us-west-2.amazonaws.com/Resume_HeckmanLiam_112519.pdf'">Send Me a Message</button> -->
+                        <div class="row links-row">
+                            <div class="col s12 m12">
+                                <button id="resume-button" onclick="window.location.href='https://heckman-portfolio.s3-us-west-2.amazonaws.com/Developer+Resume+(3).pdf'">Download my Resume</button>
+                                <ul style="display: inline-block;" id="links-list">
+                                    <li style="display: inline-block;"><a class="links-icon text-lighten-3" href="https://www.linkedin.com/in/liam-heckman-6b8872128/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li style="display: inline-block;"><a class="links-icon text-lighten-3" href="https://github.com/heckman-codes" target="_blank"> <i class="fa fa-github"></i></a></li>
+                                    <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> -->
+                                </ul>
+                                <!-- <button id="resume-button" onclick="window.location.href='https://heckman-portfolio.s3-us-west-2.amazonaws.com/Resume_HeckmanLiam_112519.pdf'">Send Me a Message</button> -->
+                            </div>
+                        </div>
                     </div>
                     <div class="col s12 m12">
 
@@ -153,6 +171,21 @@
         <h3> Code </h3>
         <hr>
         <div class="row grid">
+            <div class="col s6 m6 l4 grid-item">
+                <div class="card">
+                    <div class="card-image code-deployment" data-url="https://damp-savannah-20012.herokuapp.com/">
+                        <img class="responsive-img zoom" src="assets/images/thelongway.png">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">The Long Way</h5>
+                        <p>A Post-Apocalyptic Oregon Trail</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://damp-savannah-20012.herokuapp.com/" target="_blank">View Deployment</a>
+                        <a href="https://github.com/heckman-codes/project-3" target="_blank">Repository </a>
+                    </div>
+                </div>
+            </div>
             <div class="col s6 m6 l4 grid-item">
                 <div class="card">
                     <div class="card-image code-deployment" data-url="https://blooming-hollows-67917.herokuapp.com">

@@ -92,6 +92,29 @@ h4 {
     font-size: 20pt; 
 }
 
+.links-icon {
+    margin-top: 15px;
+    padding: 0 0 0 15px;
+    font-size: 40px;
+    color: black;
+}
+
+li.links-icon {
+    margin-top: 10px;
+}
+
+#links-list {
+    margin: 0;
+}
+
+.links-row {
+    margin-bottom: 0;
+}
+
+.vimeo-img {
+    width: 100%;
+}
+
 .circle {
     border-radius: 0px;
 }
@@ -145,7 +168,7 @@ h4 {
     border: none;
     border-radius: 5px;
     padding: 7px 8px;
-    margin: .5rem 0 1.168rem 0;
+    margin: -.5rem 0 1.168rem 0;
     cursor: pointer;
 }
 
