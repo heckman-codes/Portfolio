@@ -107,7 +107,7 @@ $(document).ready(function () {
         $('.grid').masonry({
             itemSelector: '.grid-item',
         });
-    }, 100);
+    }, 1000);
 });
 
 const portfolio = [
