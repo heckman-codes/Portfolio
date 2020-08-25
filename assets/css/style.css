@@ -147,6 +147,10 @@ li.links-icon {
     font-size: 1.5rem;
 }
 
+#code-text {
+    font-size: 1.1rem;
+}
+
 .row .col .bio {
     padding-left: 1rem;
 }

@@ -101,7 +101,7 @@ $(document).ready(function () {
         $(cardDiv).append(cardImg)
         $(cardDiv).append(cardContent);
 
-        $("#my-design").prepend(itemDiv);
+        $("#my-design").append(itemDiv);
     }
     setTimeout(function () {
         $('.grid').masonry({
